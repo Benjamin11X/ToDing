@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/output.css">
+    <link href="/src/public/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/src/public/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/src/public/fontawesome/css/solid.css" rel="stylesheet">
+    <title>ToDing</title>
+</head>
+
+<body class="font-notoSans text-indigo-900">
+    <nav class="fixed h-24 xs:h-16 w-full bg-violet-200 shadow-lg">
+        <div class="w-full h-full flex justify-between items-center px-3 md:px-7">
+            <!-- LEFT MENU -->
+            <div class="hidden w-5/12 lg:w-2/5 md:block text-lg">
+                <a href="#" class="px-3">Home</a>
+                <a href="#" class="px-3">About Us</a>
+            </div>
+
+            <!-- LOGO -->
+            <div class="w-7/12 xs:w-7/12 md:w-4/12 lg:w-1/5 text-left text-4xl font-medium md:text-center">
+                <a href="#"><i class="fa-solid fa-bolt text-yellow-400"></i>ToDoing</a>
+            </div>
+
+            <!-- RIGHT MENU -->
+            <div class="w-3/12 xs:w-6/12 md:w-5/12 lg:w-2/5 flex flex-col xs:flex-row justify-end items-center space-y-2 space-x-0 xs:space-y-0 xs:space-x-2 ">
+                <a href="#" class="w-24 px-3 py-1 text-center border-violet-300 border-2 rounded-3xl shadow-md hover:scale-105 ease-in-out duration-300">Log In</a>
+                <a href="#" class="w-24 px-3 py-1 text-center bg-violet-300 border-violet-300 border-2 rounded-3xl shadow-md hover:scale-105 ease-in-out duration-300">Sign Up</a>
+            </div>
+
+            <!-- MOBILE BUTTON -->
+            <div class="w-1/12 md:hidden text-right text-4xl">
+                <button id="btn_navbar_expand"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <div id="navbar_expand" class="hidden md:hidden bg-violet-200 py-2 shadow-lg">
+            <a href="#" class="block text-center py-1">Home</a>
+            <a href="#" class="block text-center py-1">About Us</a>
+        </div>
+    </nav>
+    <div class="h-screen w-full flex justify-start items-center bg-violet-200 text-5xl">
+        <img src="/src/public/landing0.png" alt="" class="h-full">
+        <div>
+            
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <script src="public/navbar.js"></script>
+</body>
+
+</html>

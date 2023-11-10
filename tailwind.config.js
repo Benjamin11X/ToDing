@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      'fontFamily': {
+        'notoSans' : ['Noto Sans', 'sans-serif'],
+      },
+      'screens': {
+        'xs' : '520px',
+      }
+    },
   },
   plugins: [],
 }
